@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 subprocess.run(["fastapi", "run", "api.py"])
 
 
-API_URL = "http://localhost:8000"
+API_URL = "http://127.0.0.1:8000/data?start=0&limit=100"
 
 st.title("Data Analysis Project")
 st.markdown("""
