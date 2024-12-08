@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 
-API_URL = "http://195.91.221.96:55555/docs"
+API_URL = "http://195.91.221.96:55555"
 
 st.title("Data Analysis Project")
 st.markdown("""
