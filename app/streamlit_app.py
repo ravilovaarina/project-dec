@@ -7,7 +7,7 @@ import io
 import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 
-#subprocess.run(["fastapi", "run", "api.py"])
+subprocess.run(["fastapi", "run", "api.py"])
 
 
 API_URL = "http://localhost:8000"
