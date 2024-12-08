@@ -270,15 +270,6 @@ plot_scatter(df[(df['Education_Level'] == 'high school') | (df['Education_Level'
              None,
              {'Preference_Words': ['Beaches', 'Mountains']})
 st.write('We get the same results for people with lower educational level. Thus, we can conclude that the relationship between the educational level and preference is not significant. What is closer to people influences their choice the most.')
-
-st.write('For a more detailed analysis we can look at each of the categories one by one.')
-plot_scatter(df,
-                "Proximity_to_Mountains",
-                "Proximity_to_Beaches",
-                'Preference_Words',
-                "Education_Level",
-                {'Preference_Words': ['Beaches', 'Mountains']}
-                )
 st.write('It is worth to mention that individuals tend to select mountains as their preferred destination only when they are situated closer to them than beaches.')
 
 
